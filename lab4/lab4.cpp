@@ -44,7 +44,7 @@ void customBilateralFilter(const Mat& src, Mat& dst, int d, double sigmaColor, d
 }
 
 int main() {
-    Mat inputImage = imread("../lab4/img.png", IMREAD_COLOR);
+    Mat inputImage = imread("../lab4/img_1.png", IMREAD_COLOR);
     int d = 10;
     double sigmaColor = 10.0;
     double sigmaSpace = 100.0;

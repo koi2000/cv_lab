@@ -51,7 +51,7 @@ void onMouse(int event, int x, int y, int flags, void *userdata) {
 }
 
 int main() {
-    image = imread("../lab2/img.png");
+    image = imread("../lab2/img_1.png");
     if (image.empty()) {
         cout << "读取失败" << endl;
         return 1;

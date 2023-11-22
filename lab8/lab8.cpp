@@ -6,7 +6,7 @@ using namespace cv;
 
 int main() {
   // 读取输入图像
-  Mat inputImage = imread("../lab8/img.png", IMREAD_GRAYSCALE);
+  Mat inputImage = imread("../lab8/img_1.png", IMREAD_GRAYSCALE);
 
   if (inputImage.empty()) {
     std::cerr << "Could not open or find the image" << std::endl;

@@ -123,7 +123,7 @@ Mat gaussian_filter_acc(Mat img, double sigma, int kernel_size) {
 }
 
 int main() {
-    Mat img = imread("../lab3/img.png", IMREAD_COLOR);
+    Mat img = imread("../lab3/img_1.png", IMREAD_COLOR);
     clock_t start_1 = clock();
     int sigma = 1.3;
     int kernel_size = 9;

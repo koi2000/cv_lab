@@ -8,7 +8,7 @@ using namespace cv;
 
 int main() {
   // 读取输入图像（二值图像，其中白色像素是目标）
-  Mat binaryImage = imread("../lab7/img.png", IMREAD_GRAYSCALE);
+  Mat binaryImage = imread("../lab7/img_1.png", IMREAD_GRAYSCALE);
   imshow("Binary Transform", binaryImage);
   waitKey(0);
   if (binaryImage.empty()) {

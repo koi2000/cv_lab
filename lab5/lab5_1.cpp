@@ -6,7 +6,7 @@ using namespace std;
 using namespace cv;
 
 int main() {
-  Mat inputImage = imread("../lab5/img.png", IMREAD_GRAYSCALE); // 读取灰度图像
+  Mat inputImage = imread("../lab5/img_1.png", IMREAD_GRAYSCALE); // 读取灰度图像
 
   Mat outputImage = inputImage.clone(); // 创建输出图像并复制输入图像
 

@@ -35,7 +35,7 @@ void onMouse(int event, int x, int y, int flags, void *userdata) {
 }
 
 int main() {
-  inputImage = imread("../lab6/img.png");
+  inputImage = imread("../lab6/img_1.png");
   if (inputImage.empty()) {
     cerr << "Could not open or find the image" << endl;
     return -1;

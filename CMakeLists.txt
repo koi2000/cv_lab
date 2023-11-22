@@ -20,6 +20,9 @@ add_executable(cvlab5_2 lab5/lab5_2.cpp)
 add_executable(cvlab6 lab6/lab6.cpp)
 add_executable(cvlab7 lab7/lab7.cpp)
 add_executable(cvlab8 lab8/lab8.cpp)
+add_executable(cvlab9_1 lab9/lab9_1.cpp)
+add_executable(cvlab9_2 lab9/lab9_2.cpp)
+
 link_directories(${OpenCV_LIBRARY_DIRS})
 # 链接OpenCV库文件
 target_link_libraries(cvlab1_1 ${OpenCV_LIBS})
@@ -32,3 +35,6 @@ target_link_libraries(cvlab5_2 ${OpenCV_LIBS})
 target_link_libraries(cvlab6 ${OpenCV_LIBS})
 target_link_libraries(cvlab7 ${OpenCV_LIBS})
 target_link_libraries(cvlab8 ${OpenCV_LIBS})
+target_link_libraries(cvlab9_1 ${OpenCV_LIBS})
+target_link_libraries(cvlab9_2 ${OpenCV_LIBS})
+

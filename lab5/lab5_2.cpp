@@ -54,7 +54,7 @@ void customHistEqualization(Mat& inputImage, Mat& outputImage) {
 }
 
 int main() {
-  Mat inputImage = imread("../lab4/img.png"); // 读取彩色图像
+  Mat inputImage = imread("../lab4/img_1.png"); // 读取彩色图像
 
   Mat outputImage = inputImage.clone(); // 创建输出图像并复制输入图像
 
